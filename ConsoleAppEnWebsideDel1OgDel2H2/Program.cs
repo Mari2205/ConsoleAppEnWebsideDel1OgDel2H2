@@ -18,7 +18,7 @@ namespace ConsoleAppEnWebsideDel1OgDel2H2
 
             ui.SetMenuHeading();
             ui.SetMenuBody(choicesOfTheUser);
-
+            Console.Write("Chose a number : ");
             int usrNum = int.Parse(Console.ReadLine());
             Console.Write("Enter you´re URL : ");
             string usrUrl = Console.ReadLine();
@@ -27,7 +27,6 @@ namespace ConsoleAppEnWebsideDel1OgDel2H2
             ui.GetLoadingSequence("Pleace wait while the URL is loading");
             Console.Clear();
             ui.GetLoadingSequence("Printing");
-
 
 
             switch (usrNum)
@@ -39,7 +38,6 @@ namespace ConsoleAppEnWebsideDel1OgDel2H2
                     Console.WriteLine("Pleace, enter a valid number");
                     break;
             }
-
 
             Console.ReadKey();
         }
