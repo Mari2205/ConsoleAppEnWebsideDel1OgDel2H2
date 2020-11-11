@@ -34,7 +34,7 @@ $$ | $$ | $$ |\$$$$$$$\ $$ |  $$ |\$$$$$$  |
 
         public void GetLoadingSequence(string loadingText)
         {
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 3; i++)
             {
                 Console.Write(loadingText);
                 Thread.Sleep(1000);
